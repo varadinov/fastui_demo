@@ -162,6 +162,7 @@ def book_details_page(book_id: int, user: Annotated[str | None, Depends(get_user
         book = next(b for b in books if b.id == book_id)
     except StopIteration:
         raise HTTPException(status_code=404, detail="Book not found")
+
     return [
         c.Page(
             components=[

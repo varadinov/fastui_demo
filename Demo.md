@@ -16,11 +16,17 @@ source ./venv/bin/activate
 ```
 
 # Install dependencies
-* FastAPI
-* FastUI
-* Uvicorn
-
 ```bash
 pip install -r requirements.txt
 ```
-#
+* FastAPI
+* FastUI
+* Uvicorn
+* PyJWT
+* python-multiform
+
+# Rum demo
+```bash
+cd demoX_xxxxx
+uvicorn main:app
+```
