@@ -1,0 +1,9 @@
+fastapi==0.109.0
+fastui==0.4.0
+uvicorn==0.25.0
+
+# Required for FastAPI forms
+python-multipart==0.0.6
+
+# Require only for AUTH demo
+PyJWT==2.8.0
